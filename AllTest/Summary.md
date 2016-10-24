@@ -2,3 +2,6 @@
 * [longerdocument.html](longerdocument.html)
 * [master-list.html](master-list.html)
 * [ozymandias.html](ozymandias.html)
+*[asteroidmining.html](asteroidmining.html)
+*[blackholefarming.html](blackholefarming.html)
+*[starlifting.html](starlifting.html)
