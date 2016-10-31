@@ -1,16 +1,10 @@
-Mod Pizza, Lincoln Square, Bellevue to Groat Point
-
 ![Mod Pizza, Lincoln Square, Bellevue to Groat Point](https://goo.gl/maps/kq4gsjsmmcD2)
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m22!1m8!1m3!1d10758.801622149284!2d-122.2202568!3d47.6125149!3m2!1i1024!2i768!4f13.1!4m11!3e2!4m5!1s0x0%3A0xf7118cdfd741524c!2sMOD+Pizza!3m2!1d47.6133301!2d-122.2019291!4m3!3m2!1d47.608157299999995!2d-122.22417139999999!5e0!3m2!1sen!2sus!4v1477883053696" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 
-Redmond Town Center to Meadow Park
-
 ![Redmond Town Center to Meadow Park](https://goo.gl/maps/2d4ug7jxFou)
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d21488.51878160253!2d-122.14199571444722!3d47.683160568134355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e2!4m5!1s0x0%3A0xbedead4deb82a1a7!2sRedmond+Town+Center!3m2!1d47.6703699!2d-122.1201825!4m5!1s0x54900d3ec19e4ba9%3A0xec143f0ffb43825a!2sMeadow+Park!3m2!1d47.696211999999996!2d-122.12569579999999!5e0!3m2!1sen!2sus!4v1477882985537" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-
-Southside of Lord Hill Park to the Northside
 
 ![Southside of Lord Hill Park to the Northside](https://goo.gl/maps/LzdiaaTo63R2)
 
