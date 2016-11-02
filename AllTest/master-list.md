@@ -1,2 +1,5 @@
 * [Summary.html](Summary.html)
 * [Assignments/Summary.html](Assignments/Summary.html)
+* [Assignments/MidTerm/Summary.html](Assignments/MidTerm/Summary.html)
+* [Assignments/MidTerm/SpaceX/Summary.html](Assignments/MidTerm/SpaceX/Summary.html)
+* [Assignments/MidTerm/SpaceProjects/Summary.html](Assignments/MidTerm/SpaceProjects/Summary.html)
