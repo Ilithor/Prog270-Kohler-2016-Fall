@@ -5,4 +5,6 @@
 * [longerdocument.html](longerdocument.html)
 * [master-list.html](master-list.html)
 * [ozymandias.html](ozymandias.html)
+* [presidents.html](presidents.html)
 * [starlifting.html](starlifting.html)
+* [bootstrapthemes.html](bootstrapthemes.html)

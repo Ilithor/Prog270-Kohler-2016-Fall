@@ -6,4 +6,3 @@
   <ul id='bar'>
   </ul>
 </div>
-
