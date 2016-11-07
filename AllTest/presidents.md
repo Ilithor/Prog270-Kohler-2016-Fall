@@ -1,5 +1,5 @@
 <div>
-  <button id="getPresidents" type="button"> Get Presidents </button>
+  <button class="btn btn-primary" id="getPresidents" type="button"> Get Presidents </button>
 </div>
 
 <div>
