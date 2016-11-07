@@ -156,13 +156,13 @@
   </ol>
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="https://s3-us-west-2.amazonaws.com/prog270-fall-2016-kohler/sauronseye.jpg" alt="First slide">
+      <img src="/images/sauronseye.jpg" alt="First slide">
     </div>
     <div class="item">
-      <img src="https://s3-us-west-2.amazonaws.com/prog270-fall-2016-kohler/purple.jpeg" alt="Second slide">
+      <img src="/images/purple.jpeg" alt="Second slide">
     </div>
     <div class="item">
-      <img src="https://s3-us-west-2.amazonaws.com/prog270-fall-2016-kohler/boom.jpg" alt="Third slide">
+      <img src="/images/boom.jpg" alt="Third slide">
     </div>
   </div>
   <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
