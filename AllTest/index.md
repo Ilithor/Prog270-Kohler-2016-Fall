@@ -11,6 +11,8 @@ Welcome to my Prog270 Website.
     elfFireConfig();
 </script>
 
+<link rel="shortcut icon" href="/images/favicon.png">
+
 ## Foo Data
 
 <button id="elfDatabasePush" class="btn btn-default btn-lg">Data Insert</button>
