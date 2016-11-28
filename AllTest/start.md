@@ -1,23 +1,3 @@
-## Login
-
-<div class="container">
-    <p id="sign-in-status"></p>
-    <p id="sign-in"></p>
-    <p id="account-details"></p>
-</div>
-
-## Presidents
-<div class="majorBlock">
-  <div>
-    <label for="elfFirstName">First Name</label>
-    <input type="text" id="elfFirstName" name="elfFirstFirst">
-  </div>
-  <div>
-    <label for="elfLastName">Last Name</label>
-    <input type="text" id="elfLastName" name="elfLastName">
-  </div>
-</div>
-
 ## Foo Data
 
 <button id="elfDatabasePush" class="btn btn-default btn-lg">Data Insert</button>
@@ -35,8 +15,8 @@
 <ul id="userInputList">
 </ul>
 
-<a class="anchor" id="user-details"></a>
-<h2>User Details</h2>
+## User Details
+
 <button id="elfGetCurrentUser" class="btn btn-default btn-lg">Get User Data</button>
 
 <div class="container">
@@ -54,8 +34,8 @@
 </div>
 
 <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/live/1.0/firebase-ui-auth.css" />
+<script src="https://www.gstatic.com/firebasejs/3.5.2/firebase.js"></script>
 <script src="https://www.gstatic.com/firebasejs/ui/live/1.0/firebase-ui-auth.js"></script>
-<script src="https://www.gstatic.com/firebasejs/3.5.2/firebase.js"></script>        
 
 <script>
   elfFireStart();
