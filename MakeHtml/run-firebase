@@ -1,0 +1,7 @@
+#! /bin/bash
+
+FIREBASE=$HOME/Source/firebase-data
+PUBLIC=$FIREBASE/public
+
+npm start
+mv -v $PUBLIC/index-firebase.html $PUBLIC/index.html

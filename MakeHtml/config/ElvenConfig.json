@@ -1,0 +1,17 @@
+{
+  "calvert": {
+    "base-dir": "/home/bcuser/",
+    "bootswatch": "superhero",
+    "most-recent-date": "1980-01-01",
+    "site-dirs": [
+      "Documents/AllTest",
+      "Documents/AllSite"
+    ],
+    "destination-dirs": [
+      "/var/www/html/",
+      "/home/bcuser/Source/firebase-data/public/",
+      "/home/bcuser/Source/firebase/public/",
+      "/home/bcuser/temp/test-site/"
+    ]
+  }
+}

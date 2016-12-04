@@ -1,0 +1,6 @@
+#! /bin/bash
+
+APACHE=/var/www/html
+
+npm start
+mv -v $APACHE/index-apache.html $APACHE/index.html
