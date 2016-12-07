@@ -1,0 +1,79 @@
+<!DOCTYPE html><html lang="en" dir="ltr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width initial-scale=1.0"><title>start</title><link href="/css/first-style.css" rel="stylesheet"><!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">--><!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">--><!--link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/cyborg/bootstrap.min.css")--><link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/superhero/bootstrap.min.css" rel="stylesheet"><link href="/css/highlight/googlecode.css" rel="stylesheet" type="text/css"><link href="/css/style.css" rel="stylesheet"><script src="https://code.jquery.com/jquery-1.12.0.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script><script src="/js/elven-help.js"></script></head><body><div class="container"><nav class="navbar navbar-inverse navbar-fixed-top"><div class="container"><div class="navbar-header"><button type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" class="navbar-toggle collapsed"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="/" class="navbar-brand">Elvenware</a></div><div id="navbar" class="navbar-collapse collapse">       <ul class="nav navbar-nav"><li ng-class="{ active: isActive('/')}" class="trigger-collapse"><a href="/">Home</a></li><li><a href="/about.html">About</a></li></ul></div></div></nav></div><div class="container"><figure><img alt="Elvenware" src="/images/elvenwarelogo.png" class="elf-normal"/></figure><h1>start</h1><p>Welcome to start</p><ul><!--TOC_Start--><li><a href="#login">Login</a></li><!--TOC_End--></ul></div><div class="container"><a class="anchor" id="login"></a>
+
+<img src="/images/firebaselist.JPG" alt="firebasedatabaselist">
+
+<h2>Login</h2>
+<div class="container">
+    <p id="sign-in-status"></p>
+    <p id="sign-in"></p>
+    <p id="account-details"></p>
+</div>
+
+<h2>Foo Data</h2>
+
+<button id="elfDatabasePush" class="btn btn-default btn-lg">Foo Data Insert</button>
+<button id="elfDatabaseGet" class="btn btn-default btn-lg">Foo Data Get</button>
+
+<h2>Shared Data</h2>
+
+<div>
+  <input type="text" id="userInput" name="userInput">
+</div>
+
+<div>
+  <button id="elfInput" class="btn btn-success">Post Input</button>
+  <button id="elfDatabaseGetAllQux" class="btn btn-success">Get All Qux Data</button>
+</div>
+
+<ul id="userInputList">
+</ul>
+
+<h2>President User Input</h2>
+
+<div>
+  <button id="elfPushPresident" class="btn btn-success">Insert New President</button>
+  <button id="elfGetPresidents" class="btn btn-success">Get Presidents</button>
+</div>
+
+<div>
+  <button id="elfInsertFromFile" class="btn btn-danger">Insert from File</button>
+  <button id="elfUpdatePresident" class="btn btn-default">Update President</button>
+</div>
+
+<div class="majorBlock">
+  <div>
+    <label for="elfFirstName">First Name</label>
+    <input type="text" id="elfFirstName" name="elfFirstFirst">
+  </div>
+  <div>
+    <label for="elfLastName">Last Name</label>
+    <input type="text" id="elfLastName" name="elfLastName">
+  </div>
+</div>
+
+<h2>User Details</h2>
+
+<button id="elfGetCurrentUser" class="btn btn-success">Get User Data</button>
+
+<div class="container">
+  <p id="userName"></p>
+  <p id="userEmail"></p>
+  <p id="userPhotoUrl"></p>
+  <p id="userId"></p>
+  <img src="" id="userImg" alt="Wait">
+</div>
+
+<div class="container">
+    <p>Status: <span id="sign-in-status">Unknown</span></p>
+    <button class="btn btn-primary btn-lg" id="sign-in"></button>
+    <pre id="account-details"></pre>
+</div>
+
+<link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/live/1.0/firebase-ui-auth.css" />
+<script src="https://www.gstatic.com/firebasejs/3.5.2/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/ui/live/1.0/firebase-ui-auth.js"></script>
+
+<script>
+  elfFireStart();
+  elfFireInitPage();
+</script>

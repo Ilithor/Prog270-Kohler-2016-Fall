@@ -1,0 +1,16 @@
+body {
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+img.twenty-five-percent {
+   width: 25%;
+}
+
+div .majorBlock {
+    border: solid black thin;
+    background-color: #FFFFFC;
+    border-radius: 8px;
+    margin: 5px;
+    padding: 5px;
+}
